@@ -1,0 +1,10 @@
+{
+  "name": "com.mrsb.assetbundlemanager",
+  "version": "1.0.0",
+  "description": "AssetBundleManager can help you manage AssetBundles, such as synchronous loading, asynchronous loading, unloading and other features. And provide some convenient editor tools to build AssetBundles.",
+  "displayName": "Asset Bundle Manager",
+  "author": "Mr-sB",
+  "license": "MIT",
+  "unity": "2021.3",
+  "unityRelease": "26f1"
+}

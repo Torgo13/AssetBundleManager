@@ -917,7 +917,7 @@ namespace GameUtil
         private static void GetAssetAsyncInternal<T>(AssetBundle assetBundle, string bundleName, string assetName, Action<T> loaded) where T : Object
         {
             AssetKey assetKey = new AssetKey(typeof(T), assetName);
-            Dictionary<AssetKey, Object> assetDict;
+            //Dictionary<AssetKey, Object> assetDict;
             //Bundle is null
             if (!assetBundle)
             {
@@ -953,7 +953,7 @@ namespace GameUtil
         private static void GetAssetAsyncInternal(AssetBundle assetBundle, Type assetType, string bundleName, string assetName, Action<Object> loaded)
         {
             AssetKey assetKey = new AssetKey(assetType, assetName);
-            Dictionary<AssetKey, Object> assetDict;
+            //Dictionary<AssetKey, Object> assetDict;
             //Bundle is null
             if (!assetBundle)
             {
